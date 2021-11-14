@@ -1,0 +1,12 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "extends": ["github>bitcartcc/renovate-config"],
+    "pip-compile": {
+        "fileMatch": ["^requirements(/.*)\\.txt$"],
+        "ignorePaths": ["requirements/deterministic/**"],
+        "transformationRegex": {
+            "find": "^requirements/(/*.*).txt$",
+            "replace": "requirements/deterministic/$1.txt"
+        }
+    }
+}
