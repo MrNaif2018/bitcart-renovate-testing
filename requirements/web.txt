@@ -1,6 +1,6 @@
 -r base.txt
 aiofiles
-aioredis<2.0 # TODO: upgrade after a few bugfix releases
+aioredis<2.1 # TODO: upgrade after a few bugfix releases
 alembic
 bitcart
 email-validator
