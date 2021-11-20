@@ -4,7 +4,7 @@
 #
 #    pip-compile --allow-unsafe --generate-hashes --output-file=requirements/deterministic/daemons/ltc.txt requirements/daemons/ltc.txt
 #
-aiohttp==3.7.4.post0 \
+aiohttp==3.8.1 \
     --hash=sha256:02f46fc0e3c5ac58b80d4d56eb0a7c7d97fcef69ace9326289fb9f1955e65cfe \
     --hash=sha256:0563c1b3826945eecd62186f3f5c7d31abb7391fedc893b7e2b26303b5a9f3fe \
     --hash=sha256:114b281e4d68302a324dd33abb04778e8557d88947875cbf4e842c2c01a030c5 \
@@ -66,14 +66,14 @@ attrs==20.3.0 \
     #   aiohttp
     #   aiohttp-socks
     #   electrum-ltc
-bitstring==3.1.7 \
+bitstring==3.1.9 \
     --hash=sha256:fdf3eb72b229d2864fb507f8f42b1b2c57af7ce5fec035972f9566de440a864a
     # via electrum-ltc
 certifi==2020.12.5 \
     --hash=sha256:1a4995114262bffbc2413b159f2a1a480c969de6e6eb13ee966d470af86af59c \
     --hash=sha256:719a74fb9e33b9bd44cc7f3a8d94bc35e4049deebe19ba7d8e108280cfd59830
     # via electrum-ltc
-cffi==1.14.5 \
+cffi==1.15.0 \
     --hash=sha256:005a36f41773e148deac64b08f233873a4d0c18b053d37da83f6af4d9087b813 \
     --hash=sha256:0857f0ae312d855239a55c81ef453ee8fd24136eaba8e87a2eceba644c0d4c06 \
     --hash=sha256:1071534bbbf8cbb31b498d5d9db0f274f2f7a865adca4ae429e147ba40f73dea \
@@ -116,7 +116,7 @@ chardet==4.0.0 \
     --hash=sha256:0d6f53a15db4120f2b08c94f11e7d93d2c911ee118b6b30a04ec3ee8310179fa \
     --hash=sha256:f864054d66fd9118f2e67044ac8981a54775ec5b67aed0441892edb553d21da5
     # via aiohttp
-cryptography==3.4.7 \
+cryptography==3.4.8 \
     --hash=sha256:0f1212a66329c80d68aeeb39b8a16d54ef57071bf22ff4e521657b27372e327d \
     --hash=sha256:1e056c28420c072c5e3cb36e2b23ee55e260cb04eee08f702e0edfec3fb51959 \
     --hash=sha256:240f5c21aef0b73f40bb9f78d2caff73186700bf1bc6b94285699aff98cc16c6 \
@@ -134,7 +134,7 @@ dnspython==1.16.0 \
     --hash=sha256:36c5e8e38d4369a08b6780b7f27d790a292b2b08eea01607865bf0936c558e01 \
     --hash=sha256:f69c21288a962f4da86e56c4905b49d11aba7938d3d740e80d9e366ee4f1632d
     # via electrum-ltc
-ecdsa==0.16.1 \
+ecdsa==0.17.0 \
     --hash=sha256:881fa5e12bb992972d3d1b3d4dfbe149ab76a89f13da02daa5ea1ec7dea6e747 \
     --hash=sha256:cfc046a2ddd425adbd1a78b3c46f0d1325c657811c0f45ecc3a0a6236c1e50ff
     # via electrum-ltc
@@ -145,15 +145,15 @@ helpdev==0.7.1 \
     --hash=sha256:779a761b18c2d96fb181aa699609f802347806125f2fee2f60dad875a625e38e \
     --hash=sha256:bb62a79acbac141dadf42cadeb92bb7450dd18b9824a62043b6a0b149190db3d
     # via qdarkstyle
-idna==3.1 \
+idna==3.3 \
     --hash=sha256:5205d03e7bcbb919cc9c19885f9920d622ca52448306f2377daede5cf3faac16 \
     --hash=sha256:c5b02147e01ea9920e6b0a3f1f7bb833612d507592c837a6c49552768f4054e1
     # via yarl
-importlib-metadata==3.10.0 \
+importlib-metadata==3.10.1 \
     --hash=sha256:c9db46394197244adf2f0b08ec5bc3cf16757e9590b02af1fca085c16c0d600a \
     --hash=sha256:d2d46ef77ffc85cbf7dac7e81dd663fde71c45326131bea8033b9bad42268ebe
     # via helpdev
-multidict==5.1.0 \
+multidict==5.2.0 \
     --hash=sha256:018132dbd8688c7a69ad89c4a3f39ea2f9f33302ebe567a879da8f4ca73f0d0a \
     --hash=sha256:051012ccee979b2b06be928a6150d237aec75dd6bf2d1eeeb190baf2b05abc93 \
     --hash=sha256:05c20b68e512166fddba59a918773ba002fdd77800cad9f55b59790030bab632 \
@@ -194,7 +194,7 @@ multidict==5.1.0 \
     # via
     #   aiohttp
     #   yarl
-protobuf==3.15.7 \
+protobuf==3.19.1 \
     --hash=sha256:0c3a6941b1e6e6e22d812a8e5c46bfe83082ea60d262a46f2cfb22d9b9fb17db \
     --hash=sha256:1001e671cf8476edce7fb72778358d026390649cc35a79d47b2a291684ccfbb2 \
     --hash=sha256:1247170191bcb2a8d978d11a58afe391004ec6c2184e4d961baf8102d43ff500 \
@@ -216,7 +216,7 @@ protobuf==3.15.7 \
     --hash=sha256:e17f60f00081adcb32068ee0bb51e418f6474acf83424244ff3512ffd2166385 \
     --hash=sha256:eb5668f3f6a83b6603ca2e09be5b20de89521ea5914aabe032cce981e4129cc8
     # via electrum-ltc
-pycparser==2.20 \
+pycparser==2.21 \
     --hash=sha256:2d475327684562c3a96cc71adf7dc8c4f0565175cf86b6d7a404ff4c771f15f0 \
     --hash=sha256:7582ad22678f0fcd81102833f60ef8d0e57288b6b5fb00323d101be910e35705
     # via cffi
@@ -232,11 +232,11 @@ qrcode==6.1 \
     --hash=sha256:3996ee560fc39532910603704c82980ff6d4d5d629f9c3f25f34174ce8606cf5 \
     --hash=sha256:505253854f607f2abf4d16092c61d4e9d511a3b4392e60bff957a68592b04369
     # via electrum-ltc
-qtpy==1.9.0 \
+qtpy==1.11.2 \
     --hash=sha256:2db72c44b55d0fe1407be8fba35c838ad0d6d3bb81f23007886dc1fc0f459c8d \
     --hash=sha256:fa0b8363b363e89b2a6f49eddc162a04c0699ae95e109a6be3bb145a913190ea
     # via qdarkstyle
-scrypt==0.8.17 \
+scrypt==0.8.18 \
     --hash=sha256:086a358f5b1a26fa88756449205caab4ff810b01e770a2491b6a2c1ac566d2e0 \
     --hash=sha256:08e40aaf1da834a4b42bd783e428400b3c1e6f2902ea2aa52f043df7694265f8 \
     --hash=sha256:0e8c136c58e2f032591cb6ce6e22932a78fb1dc01dd61ee0c831eb3abaaf074f \
@@ -272,14 +272,14 @@ scrypt==0.8.17 \
     --hash=sha256:e2fc402b14aeec6d6ce3df4347a0a55a543463f53a40901bff269b1992e0ad72 \
     --hash=sha256:fb9167846ecaafdaf7782a531bc5e4fdbd8334521cbaa407808496b9d914bd0e
     # via -r requirements/daemons/ltc.txt
-six==1.15.0 \
+six==1.16.0 \
     --hash=sha256:30639c035cdb23534cd4aa2dd52c3bf48f06e5f4a941509c8bafd8ce11080259 \
     --hash=sha256:8b74bedcbbbaca38ff6d7491d76f2b06b3592611af620f8426e82dddb04a5ced
     # via
     #   ecdsa
     #   protobuf
     #   qrcode
-typing-extensions==3.7.4.3 \
+typing-extensions==3.10.0.2 \
     --hash=sha256:7cb407020f00f7bfc3cb3e7881628838e69d8f3fcab2f64742a5e76b2f841918 \
     --hash=sha256:99d4073b617d30288f569d3f13d2bd7548c3a7e4c8de87db09a9d29bb3a4a60c \
     --hash=sha256:dafc7639cde7f1b6e1acc0f457842a83e722ccca8eef5270af2d74792619a89f
@@ -287,7 +287,7 @@ typing-extensions==3.7.4.3 \
     #   aiohttp
     #   importlib-metadata
     #   yarl
-yarl==1.6.3 \
+yarl==1.7.2 \
     --hash=sha256:00d7ad91b6583602eb9c1d085a2cf281ada267e9a197e8b7cae487dadbfa293e \
     --hash=sha256:0355a701b3998dcd832d0dc47cc5dedf3874f966ac7f870e0f3a6788d802d434 \
     --hash=sha256:15263c3b0b47968c1d90daa89f21fcc889bb4b1aac5555580d74565de6836366 \
@@ -326,7 +326,7 @@ yarl==1.6.3 \
     --hash=sha256:f0b059678fd549c66b89bed03efcabb009075bd131c248ecdf087bdb6faba24a \
     --hash=sha256:fcbb48a93e8699eae920f8d92f7160c03567b421bc17362a9ffbbd706a816f71
     # via aiohttp
-zipp==3.4.1 \
+zipp==3.6.0 \
     --hash=sha256:3607921face881ba3e026887d8150cca609d517579abe052ac81fc5aeffdbd76 \
     --hash=sha256:51cb66cc54621609dd593d1787f286ee42a5c0adbb4b29abea5a63edc3e03098
     # via importlib-metadata
