@@ -4,7 +4,7 @@
 #
 #    pip-compile --allow-unsafe --generate-hashes --output-file=requirements/deterministic/daemons/bch.txt requirements/daemons/bch.txt
 #
-aiohttp==3.7.4.post0 \
+aiohttp==3.8.1 \
     --hash=sha256:02f46fc0e3c5ac58b80d4d56eb0a7c7d97fcef69ace9326289fb9f1955e65cfe \
     --hash=sha256:0563c1b3826945eecd62186f3f5c7d31abb7391fedc893b7e2b26303b5a9f3fe \
     --hash=sha256:114b281e4d68302a324dd33abb04778e8557d88947875cbf4e842c2c01a030c5 \
@@ -67,7 +67,7 @@ dnspython==2.1.0 \
     --hash=sha256:95d12f6ef0317118d2a1a6fc49aac65ffec7eb8087474158f42f26a639135216 \
     --hash=sha256:e4a87f0b573201a0f3727fa18a516b055fd1107e0e5477cded4a2de497df1dd4
     # via electron-cash
-ecdsa==0.16.1 \
+ecdsa==0.17.0 \
     --hash=sha256:881fa5e12bb992972d3d1b3d4dfbe149ab76a89f13da02daa5ea1ec7dea6e747 \
     --hash=sha256:cfc046a2ddd425adbd1a78b3c46f0d1325c657811c0f45ecc3a0a6236c1e50ff
     # via electron-cash
@@ -80,11 +80,11 @@ idna==2.10 \
     # via
     #   requests
     #   yarl
-jsonrpclib-pelix==0.4.2 \
+jsonrpclib-pelix==0.4.3.1 \
     --hash=sha256:1f81e19a53357f7f410696307f9e171a15b51ef574d7d8bc330623c0f3e62220 \
     --hash=sha256:340915c17ebef7451948341542bf4789fc8d8c9fe604e86f00b722b6074a89f0
     # via electron-cash
-multidict==5.1.0 \
+multidict==5.2.0 \
     --hash=sha256:018132dbd8688c7a69ad89c4a3f39ea2f9f33302ebe567a879da8f4ca73f0d0a \
     --hash=sha256:051012ccee979b2b06be928a6150d237aec75dd6bf2d1eeeb190baf2b05abc93 \
     --hash=sha256:05c20b68e512166fddba59a918773ba002fdd77800cad9f55b59790030bab632 \
@@ -125,11 +125,11 @@ multidict==5.1.0 \
     # via
     #   aiohttp
     #   yarl
-pathvalidate==2.4.1 \
+pathvalidate==2.5.0 \
     --hash=sha256:3c9bd94c7ec23e9cfb211ffbe356ae75f979d6c099a2c745ee9490f524f32468 \
     --hash=sha256:f5dde7efeeb4262784c5e1331e02752d07c1ec3ee5ea42683fe211155652b808
     # via electron-cash
-protobuf==3.15.7 \
+protobuf==3.19.1 \
     --hash=sha256:0c3a6941b1e6e6e22d812a8e5c46bfe83082ea60d262a46f2cfb22d9b9fb17db \
     --hash=sha256:1001e671cf8476edce7fb72778358d026390649cc35a79d47b2a291684ccfbb2 \
     --hash=sha256:1247170191bcb2a8d978d11a58afe391004ec6c2184e4d961baf8102d43ff500 \
@@ -159,11 +159,11 @@ pysocks==1.7.1 \
     --hash=sha256:2725bd0a9925919b9b51739eea5f9e2bae91e83288108a9ad338b2e3a4435ee5 \
     --hash=sha256:3f8804571ebe159c380ac6de37643bb4685970655d3bba243530d6558b799aa0
     # via electron-cash
-python-dateutil==2.8.1 \
+python-dateutil==2.8.2 \
     --hash=sha256:73ebfe9dbf22e832286dafa60473e4cd239f8592f699aa5adaf10050e6e1823c \
     --hash=sha256:75bb3f31ea686f1197762692a9ee6a7550b59fc6ca3a1f4b5d7e32fb98e2da2a
     # via electron-cash
-qdarkstyle==2.6.8 \
+qdarkstyle==2.8.1 \
     --hash=sha256:037a54bf0aa5153f8055b65b8b36ac0d0f7648f2fd906c011a4da22eb0f582a2 \
     --hash=sha256:fd1abae37d3a0a004089178da7c0b26ec5eb29f965b3e573853b8f280b614dea
     # via electron-cash
@@ -171,11 +171,11 @@ qrcode==6.1 \
     --hash=sha256:3996ee560fc39532910603704c82980ff6d4d5d629f9c3f25f34174ce8606cf5 \
     --hash=sha256:505253854f607f2abf4d16092c61d4e9d511a3b4392e60bff957a68592b04369
     # via electron-cash
-requests==2.25.1 \
+requests==2.26.0 \
     --hash=sha256:27973dd4a904a4f13b263a19c866c13b92a39ed1c964655f025f3f8d3d75b804 \
     --hash=sha256:c210084e36a42ae6b9219e00e48287def368a26d03a048ddad7bfee44f75871e
     # via electron-cash
-six==1.15.0 \
+six==1.16.0 \
     --hash=sha256:30639c035cdb23534cd4aa2dd52c3bf48f06e5f4a941509c8bafd8ce11080259 \
     --hash=sha256:8b74bedcbbbaca38ff6d7491d76f2b06b3592611af620f8426e82dddb04a5ced
     # via
@@ -186,18 +186,18 @@ six==1.15.0 \
 stem==1.8.0 \
     --hash=sha256:a0b48ea6224e95f22aa34c0bc3415f0eb4667ddeae3dfb5e32a6920c185568c2
     # via electron-cash
-typing-extensions==3.7.4.3 \
+typing-extensions==3.10.0.2 \
     --hash=sha256:7cb407020f00f7bfc3cb3e7881628838e69d8f3fcab2f64742a5e76b2f841918 \
     --hash=sha256:99d4073b617d30288f569d3f13d2bd7548c3a7e4c8de87db09a9d29bb3a4a60c \
     --hash=sha256:dafc7639cde7f1b6e1acc0f457842a83e722ccca8eef5270af2d74792619a89f
     # via
     #   aiohttp
     #   yarl
-urllib3==1.26.5 \
+urllib3==1.26.7 \
     --hash=sha256:753a0374df26658f99d826cfe40394a686d05985786d946fbe4165b5148f5a7c \
     --hash=sha256:a7acd0977125325f516bda9735fa7142b909a8d01e8b2e4c8108d0984e6e0098
     # via requests
-yarl==1.6.3 \
+yarl==1.7.2 \
     --hash=sha256:00d7ad91b6583602eb9c1d085a2cf281ada267e9a197e8b7cae487dadbfa293e \
     --hash=sha256:0355a701b3998dcd832d0dc47cc5dedf3874f966ac7f870e0f3a6788d802d434 \
     --hash=sha256:15263c3b0b47968c1d90daa89f21fcc889bb4b1aac5555580d74565de6836366 \
